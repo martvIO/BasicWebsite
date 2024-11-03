@@ -8,7 +8,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🌟 Introduction
+#🌟Introduction
 
 **Future Auth** is a web application that provides user authentication features using Firebase. It allows users to sign up, sign in, and manage their sessions with a modern and responsive design. The application supports light and dark themes, enhancing user experience.
 
