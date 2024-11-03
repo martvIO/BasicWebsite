@@ -1,6 +1,3 @@
-Here's a more visually appealing version of your `README.md`, complete with emojis and a lively design. This version maintains the structure of your original content while adding some flair to enhance readability and engagement.
-
-```markdown
 # 🚀 Future Auth
 
 ![Future Auth Logo](https://via.placeholder.com/150) <!-- Replace with your logo -->
