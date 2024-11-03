@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Our App</h2>
+        
+        {% if user_email %}
+            <p class="message">Logged in as: <strong>{{ user_email }}</strong></p>
+            <a href="{{ url_for('logout') }}" class="btn-block logout-button">Logout</a>
+        {% else %}
+            <p class="message">Please log in or sign up to continue.</p>
+            <br>
+            <a href="{{ url_for('login') }}" class="btn-block">Login</a>
+            <br>
+            <a href="{{ url_for('signup') }}" class="btn-block">Sign Up</a>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+/* General Page Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9eff6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1em;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;  /* Increased width */
+    padding: 3em;      /* Increased padding for height */
+    margin-top: 2em;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Header Styling */
+h2 {
+    color: #0d6efd;
+    font-size: 2.4em; /* Larger font size */
+    margin-bottom: 1.2em;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 1em; /* Increased padding for taller input fields */
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    background-color: #f7f9fc;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+/* Button Styling */
+.btn-block {
+    display: block;
+    width: 100%;
+    padding: 1em;  /* Increased padding for taller buttons */
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+.btn-block:hover {
+    background-color: #0a58ca;
+}
+
+.btn-block:active {
+    transform: scale(0.98);
+}
+
+/* Logout Button Styling */
+.logout-button {
+    background-color: #dc3545;
+    margin-top: 1.5em;
+}
+
+.logout-button:hover {
+    background-color: #bb2d3b;
+}
+
+/* Link Styling */
+.message {
+    margin-top: 1.5em;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.message a {
+    color: #0d6efd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
