@@ -1,7 +1,3 @@
-# 🚀 Future Auth
-
-![Future Auth Logo](https://via.placeholder.com/150) <!-- Replace with your logo -->
-
 ## 📚 Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
