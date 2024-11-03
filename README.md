@@ -4,7 +4,7 @@
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
 - [File Structure](#file-structure)
-- [Usage](#usage)
+- [Usage](#Usage)
 - [Contributing](#contributing)
 - [License](#license)
 
