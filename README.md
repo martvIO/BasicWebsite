@@ -1,5 +1,5 @@
 ## 📚 Table of Contents
-- [Introduction](#introduction)
+- [Introduction](#Introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
