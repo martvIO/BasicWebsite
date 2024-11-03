@@ -1,12 +1,11 @@
 ## 📚 Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [File Structure](#file-structure)
-- [Usage](#Usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Setup Instructions](#%EF%B8%8F-setup-instructions)
+- [File Structure](#-file-structure)
+- [Usage](#%EF%B8%8F-usage)
+- [Contributing](#-contributing)
 
 ## 🌟Introduction
 
